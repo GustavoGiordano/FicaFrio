@@ -1,6 +1,7 @@
 import './App.css'
-import Navegacao from './Components/Navbar/Navbar'
-import LandinPage from './Pages/LandinPage/LandinPage'
+import Navegacao from './Components/Navbar/Navbar.jsx'
+import LandinPage from './Pages/LandinPage/LandinPage.jsx'
+import Tarefas from './Components/Tarefas/OrganizadorTarefas.jsx'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navegacao/>
+      <Tarefas/>
     </>
   )
 }

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiKey = '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'
+const apiKey = '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'
 const apiUrl = 'https://api.openai.com/v1/engines/davinci/completions'
 
 const GTP3Service = {
