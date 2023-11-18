@@ -1,8 +1,8 @@
 import React from 'react'
-import './Planos.css'
-function Planos() {
+
+const Planos = () => {
   return (
-    <div>Planos</div>
+    <>Planos</>
   )
 }
 

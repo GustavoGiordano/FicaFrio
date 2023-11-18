@@ -1,0 +1,34 @@
+
+
+
+#nav-bar {
+    z-index: 10;  
+    padding-left: 20px;    
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.botao {
+    background-color: #41748D;
+    border-color: #41748D;
+    margin-right: 30px;
+    border-radius: 7px;
+    box-shadow: none;
+    
+}
+
+
+.botao:hover{
+    background-color: #F3FFFD;
+    border-color: #41748D;
+    color: #41748D;
+}
+
+
+
+

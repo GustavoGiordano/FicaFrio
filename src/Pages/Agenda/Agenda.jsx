@@ -1,8 +1,12 @@
 import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
 
-function Agenda() {
+
+const Agenda = () => {
   return (
-    <div>Agenda</div>
+    <>
+    agenda
+    </>
   )
 }
 

@@ -1,31 +1,30 @@
 import './App.css'
-import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootstrap(PF N APAGUE);
-import SobreNos from './Pages/SobreNos/SobreNos.jsx';
-import Layout from './Components/Layout/Layout.jsx';
-import Home from './Pages/Home/Home.jsx';
-import Agenda from './Pages/Agenda/Agenda.jsx'
+import Nave from './Components/Navbar/Nave';
+
+
+
+
+
+
 
 
 function App() {
-  
+  /* A função App esta apenas puxando o elementos */
 
   return (
     <>
-      <Router>
-      <Layout>
-        <Routes>
-          <Route exact path='/' Component={Home}/>
-          <Route  path='/sobre_nos' Component={SobreNos}/>
-          <Route  path='/agenda' Component={Agenda}/>
-
-        </Routes>
-      </Layout>
-      </Router>
-      
-      
-      
-      
+      <div className='main'>
+        <section className='header'>
+          <Nave />
+        </section>
+        <section>
+          <section className='body'>
+            <Outlet />
+          </section>
+        </section>
+      </div>
     </>
   )
 }

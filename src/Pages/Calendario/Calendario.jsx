@@ -1,9 +1,8 @@
 import React from 'react'
-import './Calendario.css'
 
-function Calendario() {
+const Calendario = () => {
   return (
-    <div>Calendario</div>
+    <>Calendario</>
   )
 }
 
