@@ -5,15 +5,17 @@ import Col from 'react-bootstrap/Col';
 import './LandinPage.css'
 
 
-function LandinPage() {
+const LandinPage = () => {
   return (
     <>
+
     <Container  fluid >
       <Row className='banner'>
         <Col sm={8}>sm=8</Col>
         <Col sm={4}>sm=4</Col>
       </Row>
     </Container>
+
     </>
   )
 }

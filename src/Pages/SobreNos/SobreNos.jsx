@@ -1,8 +1,8 @@
 import React from 'react'
-import './SobreNos.css'
-function SobreNos() {
+
+const SobreNos = () => {
   return (
-    <div>SobreNos</div>
+    <>SobreNos</>
   )
 }
 

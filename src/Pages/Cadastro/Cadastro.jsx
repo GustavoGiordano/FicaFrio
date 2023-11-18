@@ -1,9 +1,11 @@
 import React from 'react'
 import './Cadastro.css'
 
-function Cadastro() {
+const Cadastro = () => {
   return (
-    <div>Cadastro</div>
+    <>
+    cadastro
+    </>
   )
 }
 

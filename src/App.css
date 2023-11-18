@@ -1,3 +1,19 @@
-.conatiner {
-    width: 100%;
+.main{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    background-color: #F3FFFD;
+    
+}
+
+
+.main .header {
+    flex-grow: 0;
+    flex-basis: auto;
+    
+}
+.main .body {
+    flex-grow: 1;
+    flex-basis: auto;
+    
 }
