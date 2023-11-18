@@ -1,9 +1,11 @@
 import './App.css'
-import Navegacao from './Components/Navbar/Navbar.jsx'
-import LandinPage from './Pages/LandinPage/LandinPage.jsx'
-import Tarefas from './Components/Tarefas/OrganizadorTarefas.jsx'
-import { BrowserRouter as Router,  } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
+import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootstrap(PF N APAGUE);
+import SobreNos from './Pages/SobreNos/SobreNos.jsx';
+import Layout from './Components/Layout/Layout.jsx';
+import Home from './Pages/Home/Home.jsx';
+import Agenda from './Pages/Agenda/Agenda.jsx'
+
 
 function App() {
   
@@ -11,12 +13,14 @@ function App() {
   return (
     <>
       <Router>
-      <Navegacao/>
-      <Container className='contianer'  fluid>
-      <Tarefas/>
-        
-        
-      </Container>
+      <Layout>
+        <Routes>
+          <Route exact path='/' Component={Home}/>
+          <Route  path='/sobre_nos' Component={SobreNos}/>
+          <Route  path='/agenda' Component={Agenda}/>
+
+        </Routes>
+      </Layout>
       </Router>
       
       
