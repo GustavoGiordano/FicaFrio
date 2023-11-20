@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootstrap(PF N APAGUE);
+
 /* criação dos sistemas de rotas */
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
