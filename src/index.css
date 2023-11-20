@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins&display=swap');
 
-body{
-  height: 100vh;
-  margin: 0;
-  
+* {
+  margin:0;
+  padding: 0  ;
+}
+
+.conatiner, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding: 0 !important;
+  margin: 0 !important; 
 }
 

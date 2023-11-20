@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {  Link,  useNavigate } from 'react-router-dom';
+import {  Link,  } from 'react-router-dom';
 import FicaFrioLogo from '../../assets/Logo.png';
 import Button from 'react-bootstrap/Button';
 import './Nave.css'
