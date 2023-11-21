@@ -20,3 +20,8 @@
     flex-basis: auto;
     
 }
+
+.main .footer {
+    flex-grow: 2;
+    flex-basis: auto;
+}
