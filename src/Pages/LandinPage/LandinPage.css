@@ -33,8 +33,19 @@
   font-size: 25px;
 }
 
+.peguin{
+  margin-bottom: 500px;
+  z-index: 2;
+  position: absolute;
+}
+.peguin{
+  margin-bottom: 500px;
+  z-index: 1;
+  position: relative;
+}
+
 .botao_landin {
-  width: 50%;
+  width: 75%;
   background-color: #41748d;
   border-color: #41748d;
   border-radius: 7px;
@@ -47,9 +58,22 @@
   color: #41748d;
 }
 
+.botao_landin_saibamais{
+  width: 25%;
+  background-color:#162332;
+  border-color: #f3fffd;
+  border-radius: 7px;
+  box-shadow: none;
+}
+.botao_landin_saibamais:hover {
+  background-color: #f3fffd;
+  border-color: #f3fffd;
+  color: #162332;
+}
 
 
 .cartaz1{
+
   background-color: #5C9FB4;
   border-radius: 25px;
   

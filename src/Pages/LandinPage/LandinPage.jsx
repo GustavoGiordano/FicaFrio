@@ -2,10 +2,12 @@ import React from 'react';
 import './LandinPage.css'
 import { Button, Col, Row, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import peguim from '../../assets/peguim.png'
 import peguin from '../../assets/peguin.png'
 import ImgTempoeDinheiro from '../../assets/ImgTempoeDinheiro.png'
 import ImgPostItAzul from '../../assets/ImgPostItAzul.png'
 import ImgBurnOut from '../../assets/ImgBurnOut.png'
+import Asinhas1 from '../../assets/Asinhas1.png'
 
 
 
@@ -16,27 +18,32 @@ const LandinPage = () => {
         <section className='banner'>
           <div className='frase_banner'>
             <Row className='banner_ajuste'>
-              <Col sm={4}>
-                <img className='peguin' src={peguin} alt="" />
-
+              <Col sm={1} >
+                <img src={peguin} alt="" />
+                {/* <img className='peguin2' src={peguim} alt="" />
+                <img className='peguin'src={Asinhas1} alt="" /> */}
               </Col>
-              <Col sm={4}>
-                <p style={{ marginBottom: '25px' }}>
+              <Col sm={1} style={{ width: '25%' }}>
+                <p style={{ color: '#FFC658' }}>
                   Bem vindo ao Fica Fri.io!
                 </p>
                 <h1 style={{ marginBottom: '25px' }}>
-                  Resfriando sua rotina desde 2023.
+                  <h1 style={{ color: '#5C9FB4' }}>Resfriando</h1>sua rotina desde 2023.
                 </h1>
-                <p style={{ marginBottom: '25px' }}>
-                  A agenda que equilibra seu tempo com sua saúde mental.
+                <p style={{ marginBottom: '25px', color: '#FFC658' }}>
+                  A <span style={{ color: '#FF6A13' }}>agenda</span> que equilibra seu tempo com sua <span style={{ color: '#FFF6A9' }}>saúde mental.</span>
                 </p>
-                <Button className='botao_landin ' as={Link} to='cadastro'>Vamos La</Button>
+                <div >
+                  {/* <Button className='botao_landin_saibamais' style={{marginRight:'43%'}} as={Link} to='cadastro'>Saiba Mais</Button> */}
+                  <Button className='botao_landin' as={Link} to='cadastro'>Vamos La!</Button>
+                </div>
+
               </Col>
             </Row>
 
           </div>
         </section>
-        <section style={{ marginTop: '2.5%' }}>
+        <section style={{ marginTop: '5%' }}>
           <Container  >
             <Row className='cartaz1' >
               <Col className='texto_cartaz'  >
@@ -54,7 +61,7 @@ const LandinPage = () => {
               <Col className='img_cartaz1' >
                 <div className='img_landin'>
                   <p className='text-center' >
-                  Imagem faltando
+                    Imagem faltando
                   </p>
                   <img alt="" />
 
@@ -79,7 +86,7 @@ const LandinPage = () => {
                     Descubra nossos planos e veja como somos a solução mais inteligente para seu negócio!
                   </p>
                   <Button className='botao_saibamais_1'  >
-                    Saiba Mais!
+                    Vamos La!
                   </Button>
                 </div>
 
@@ -89,15 +96,15 @@ const LandinPage = () => {
 
                 <div className='text-center texto_porque_nos'>
                   <h1 className='text-center' >
-                  Mas por que o Fica Fri.io?
+                    Mas por que o Fica Fri.io?
                   </h1>
                   <p className='text-center'>
-                  Fica Fri.io é uma escolha óbvia para quem busca qualidade, foco e intuitividade no cuidado em gestão de tempo. 
-                  Nossos objetivos são claros: proporcionar uma boa experiência, ajudá-lo a manter o foco, melhorar sua produtividade e auxiliar na organização do seu bem-estar. 
-                  Escolha Fica Fri.io transforme seu autocuidado.
+                    Fica Fri.io é uma escolha óbvia para quem busca qualidade, foco e intuitividade no cuidado em gestão de tempo.
+                    Nossos objetivos são claros: proporcionar uma boa experiência, ajudá-lo a manter o foco, melhorar sua produtividade e auxiliar na organização do seu bem-estar.
+                    Escolha Fica Fri.io transforme seu autocuidado.
                   </p>
                   <Button className='botao_saibamais_2'  >
-                    Saiba Mais!
+                    Vamos La!
                   </Button>
                 </div>
               </Col>
@@ -106,14 +113,14 @@ const LandinPage = () => {
 
                 <div className='text-center texto_porque_nos'>
                   <h1 className='text-center' >
-                  O que é o Bournout?
+                    O que é o Bournout?
                   </h1>
                   <p className='text-center'>
-                  Muitas pessoas sofrem com a Síndrome de  Burnout, um distúrbio com sintomas de estresse emocional e físico ocasionado por situações de trabalho desgastantes. 
-                  Com o Fica Fri.io, você a previne com estratégias que diminuem o estresse e a pressão no trabalho, resultando em organização eficiente para suas tarefas.
+                    Muitas pessoas sofrem com a Síndrome de  Burnout, um distúrbio com sintomas de estresse emocional e físico ocasionado por situações de trabalho desgastantes.
+                    Com o Fica Fri.io, você a previne com estratégias que diminuem o estresse e a pressão no trabalho, resultando em organização eficiente para suas tarefas.
                   </p>
                   <Button className='botao_saibamais_3'  >
-                    Saiba Mais!
+                    Vamos La!
                   </Button>
                 </div>
               </Col>
