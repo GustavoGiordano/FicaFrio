@@ -1,10 +1,13 @@
 import React from 'react'
-import './Footer.css'
+import './Rodape.css'
 import Logo from '../../assets/Logo.png'
-import {Container, Row, Col, Footer} from 'react-bootstrap'
+import { Row, Col, Footer} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-const Foot = () => {
+
+
+
+const Rodape = () => {
   
   return (
     <>
@@ -16,11 +19,7 @@ const Foot = () => {
               <h1>Redes Sociais:</h1>
             </ul>
               <div className='social-links'>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
+                
               </div>
           </Col>
 
@@ -38,7 +37,7 @@ const Foot = () => {
           <Col md={4}>
             <h1>Boletim de Notícias</h1>
             <p>Acompanhe o projeto e receba dicas de organização</p>
-            Concordo em receber noticias da equipe Frio
+            
           </Col>
         </Row>
 
@@ -51,4 +50,4 @@ const Foot = () => {
   )
 }
 
-export default Foot
+export default Rodape

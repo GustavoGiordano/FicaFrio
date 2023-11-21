@@ -30,7 +30,7 @@ const LandinPage = () => {
                 <p style={{ marginBottom: '25px' }}>
                   A agenda que equilibra seu tempo com sua saúde mental.
                 </p>
-                <Button className='botao_landin ' as={Link} to='login'>Entrar</Button>
+                <Button className='botao_landin ' as={Link} to='cadastro'>Vamos La</Button>
               </Col>
             </Row>
 
@@ -54,7 +54,7 @@ const LandinPage = () => {
               <Col className='img_cartaz1' >
                 <div className='img_landin'>
                   <p className='text-center' >
-                    Insira a sua imagem aqui!
+                  Imagem faltando
                   </p>
                   <img alt="" />
 
@@ -67,7 +67,7 @@ const LandinPage = () => {
         <section style={{ marginTop: '2.5%' }}>
           <Container>
             <Row className='cartaz_sobre_nos'>
-              <Col className='economize' xs={1}>
+              <Col className='economize' xs={4}>
                 <img src={ImgTempoeDinheiro} className='img_ted' alt="" />
 
                 <div className='text-center texto_economize'>
@@ -84,7 +84,7 @@ const LandinPage = () => {
                 </div>
 
               </Col>
-              <Col className='porque_nos' xs={1}>
+              <Col className='porque_nos' xs={4}>
                 <img src={ImgPostItAzul} className='img_ted' alt="" />
 
                 <div className='text-center texto_porque_nos'>
@@ -101,7 +101,7 @@ const LandinPage = () => {
                   </Button>
                 </div>
               </Col>
-              <Col className='estresse' xs={1}>
+              <Col className='estresse' xs={4}>
                 <img src={ImgBurnOut} className='img_ted' alt="" />
 
                 <div className='text-center texto_porque_nos'>
