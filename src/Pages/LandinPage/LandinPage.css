@@ -96,11 +96,17 @@
   border-radius: 15px;
 }
 
+
 .botao_saibamais_1{
   background-color: #F3FFFD;
   color:  #500856;
   border-color: #F3FFFD;
   
+  width: 50%;
+}
+
+.img_ted {
+  margin-top: 15%;
   width: 50%;
 }
 
@@ -120,10 +126,7 @@
   flex-direction: column;
   align-items: center;
 }
-.img_ted {
-  margin-top: 10%;
-  width: 50%;
-}
+
 
 .porque_nos{
   background-image: url(../../assets/FundoInterroga.png);
@@ -140,9 +143,10 @@
   background-color: #F3FFFD;
   color:  #41748D;
   border-color: #F3FFFD;
-  
   width: 50%;
 }
+
+
 
 .estresse{
   background-image: url(../../assets/FundoEstresse.png);
@@ -155,6 +159,10 @@
   align-items: center;
 }
 
+
+
+
+
 .botao_saibamais_3{
   background-color: #F3FFFD;
   color:  #FF9877;
@@ -162,6 +170,33 @@
   
   width: 50%;
 }
+
+
+.botao_saibamais_1:hover{
+  background-color:#500856 ;
+  color:  #F3FFFD ;
+  border-color: #F3FFFD;
+  
+  width: 50%;
+}
+
+
+.botao_saibamais_2:hover{
+  background-color: #41748D;
+  color: #F3FFFD ;
+  border-color: #F3FFFD;
+  
+  width: 50%;
+}
+
+.botao_saibamais_3:hover{
+  background-color: #FF9877;
+  color:  #F3FFFD;
+  border-color: #F3FFFD;
+  
+  width: 50%;
+}
+
 
 
 
