@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootst
 import Nave from './Components/Navbar/Nave';
 import Footer from './Components/Footer/Footer';
 import './App.css'
+import Foot from './Components/Footer/Footer'
 
 
 
@@ -22,6 +23,9 @@ function App() {
         <section>
           <section className='body'>
             <Outlet />
+          </section>
+          <section className='footer'>
+            <Foot/>
           </section>
         </section>
       </div>
