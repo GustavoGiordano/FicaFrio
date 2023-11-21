@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootstrap(PF N APAGUE);
 import Nave from './Components/Navbar/Nave';
 import './App.css'
+import Foot from './Components/Footer/Footer'
 
 
 
@@ -21,6 +22,9 @@ function App() {
         <section>
           <section className='body'>
             <Outlet />
+          </section>
+          <section className='footer'>
+            <Foot/>
           </section>
         </section>
       </div>
