@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+/*Imports FontAwesome*/
+
+
+
 /* criação dos sistemas de rotas */
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -15,6 +19,7 @@ import Login  from './Pages/Login/Login.jsx';
 import Cadastro  from './Pages/Cadastro/Cadastro.jsx';
 import Planos from './Pages/Planos/Planos.jsx';
 import Calendario from './Pages/Calendario/Calendario.jsx';
+
 
 
 
@@ -61,6 +66,9 @@ const router = createBrowserRouter([
   },
   
 ])
+//icones Fonte Awesome
+
+
 
 
 
