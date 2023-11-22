@@ -1,8 +1,14 @@
 import { Outlet } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootstrap(PF N APAGUE);
-import Nave from './Components/Navbar/Nave';
 
+import Nave from './Components/Navbar/Nave';
+import Rodape from './Components/Rodape/Rodape';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';// Ativa a estilização do bootstrap(PF N APAGUE);
 import './App.css'
+
+
+
 
 
 function App() {
@@ -13,15 +19,17 @@ function App() {
       <div className='main'>
         <section className='header'>
           <Nave />
+
         </section>
         <section>
           <section className='body'>
             <Outlet />
+
           </section>
         </section>
-        {/* <section className='footer'>
+        <section className='footer'>
           <Rodape />
-        </section> */}
+        </section>
       </div>
     </>
   )
