@@ -10,17 +10,12 @@
 }
 
 
-.botao {
-    background-color: #41748D;
-    border-color: #41748D;
-    margin-right: 30px;
-    border-radius: 7px;
-    box-shadow: none;
+.botao_nav {
     
 }
 
 
-.botao:hover{
+.botao_nav:hover{
     background-color: #F3FFFD;
     border-color: #41748D;
     color: #41748D;

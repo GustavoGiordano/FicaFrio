@@ -16,18 +16,18 @@ function App() {
 
   return (
     <>
-      <div className='main'>
-        <section className='header'>
+      <div id='main'>
+        <section id='header'>
           <Nave />
 
         </section>
         <section>
-          <section className='body'>
+          <section id='body'>
             <Outlet />
 
           </section>
         </section>
-        <section className='footer'>
+        <section id='footer'>
           <Rodape />
         </section>
       </div>

@@ -1,19 +1,19 @@
-.main{  
+#main{  
     display: flex;
     flex-flow: column;
     height: 100vh;
     background-color: #F3FFFD;
 }
-.main .header {
+#main #header {
     flex-grow: 0;
     flex-basis: auto;
 }
-.main .body {
+#main #body {
     flex-grow: 1;
     flex-basis: auto;
     
 }
-.main .footer {
+#main #footer {
     flex-grow: 2;
     flex-basis: auto;
 }
