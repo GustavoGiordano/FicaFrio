@@ -1,32 +1,36 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Logo from '../../assets/Logo.png'
-import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
+import { faXTwitter, faLinkedin,faSquareFacebook,faSquareInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom';
 import './Rodape.css'
 
 
 
-function Rodape() {
 
+function Rodape() {
+      
+        
 
     return (
         <>
+
             <div className='rodape'>
-                <Row>
+                <Row style={{margin: '0'}}>
                     <Col className='rodape_col' md={5}>
                         <ul className='LogoTipo'>
-                            <img src={Logo} alt="LogoTipo" />
+                            <Link  to='/'><img src={Logo} alt="LogoTipo" /></Link>
                             <hr className='linhadivisoria'/>
                             <h1>Redes socias:</h1>
                         </ul>
                         <div className='social-links'>
-                            <FontAwesomeIcon icon="fa-brands fa-x-twitter"/>
-                            <FontAwesomeIcon icon="fa-brands fa-x-twitter"/>
-                            <FontAwesomeIcon icon="fa-brands fa-square-instagram"/>
-                            <FontAwesomeIcon icon="fa-brands fa-linkedin"/>
+                            <Link><FontAwesomeIcon icon={faSquareFacebook}  size='3x' className='icon'/></Link>
+                            <Link><FontAwesomeIcon icon={faXTwitter} size='3x' className='icon'/></Link>
+                            <Link><FontAwesomeIcon icon={faSquareInstagram} size='3x' className='icon' /></Link>
+                            <Link><FontAwesomeIcon icon={faLinkedin}  size='3x' className='icon'/></Link>
                         </div>
                     </Col>
                     <Col className='rodape_LinksUteis' md={4}>

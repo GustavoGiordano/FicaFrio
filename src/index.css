@@ -2,11 +2,36 @@
 
 * {
   margin:0;
-  padding: 0  ;
+  padding: 0;
 }
 
 .conatiner, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   padding: 0 !important;
   margin: 0 !important; 
 }
+
+.btn-primary {
+  background-color: #41748D;
+    border-color: #41748D;
+    margin-right: 30px;
+    border-radius: 7px;
+    box-shadow: none;
+    
+}
+
+.btn-primary:after{
+  background-color: #41748D;
+    border-color: #41748D;
+    margin-right: 30px;
+    border-radius: 7px;
+    box-shadow: none;
+    
+}
+
+.btn-primary:hover {
+  background-color: #F3FFFD;
+    border-color: #41748D;
+    color: #41748D;   
+}
+
 

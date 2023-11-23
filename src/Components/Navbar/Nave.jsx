@@ -28,8 +28,8 @@ const Nave = () => {
                         </Nav>
                         
                         <div className='button' >
-                            <Button className='botao' as={Link} to='login'>Entrar</Button>
-                            <Button className='botao' as={Link} to='cadastro'>Criar Conta</Button>
+                            <Button className='botao_nav' as={Link} to='login'>Entrar</Button>
+                            <Button className='botao_nav' as={Link} to='cadastro'>Criar Conta</Button>
 
                         </div>
 

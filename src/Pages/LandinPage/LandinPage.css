@@ -46,17 +46,10 @@
 
 .botao_landin {
   width: 75%;
-  background-color: #41748d;
-  border-color: #41748d;
-  border-radius: 7px;
-  box-shadow: none;
+  margin: 0;
 }
 
-.botao_landin:hover {
-  background-color: #f3fffd;
-  border-color: #41748d;
-  color: #41748d;
-}
+
 
 .botao_landin_saibamais{
   width: 25%;
@@ -64,6 +57,7 @@
   border-color: #f3fffd;
   border-radius: 7px;
   box-shadow: none;
+
 }
 .botao_landin_saibamais:hover {
   background-color: #f3fffd;
@@ -76,6 +70,7 @@
 
   background-color: #5C9FB4;
   border-radius: 25px;
+  box-shadow: 5px 5px 5px 5px #141e2937 ;
   
 }
 .text-center {
@@ -95,10 +90,11 @@
   width: 50%;
   background-color: #41748d;
   border-color: #41748d;
-  margin-right: 30px;
-  margin-top: 2%;
+  margin: 0;
+  margin-top: 3%;
   border-radius: 7px;
   box-shadow: none;
+  
 }
 
 .botao_landin2:hover {
@@ -121,24 +117,21 @@
 }
 
 
-.botao_saibamais_1{
-  background-color: #F3FFFD;
-  color:  #500856;
-  border-color: #F3FFFD;
-  
-  width: 50%;
-}
 
 .img_ted {
   margin-top: 15%;
   width: 50%;
+  
 }
 
-.cartaz_sobre_nos{
+.cartaz_sobre_nos{ 
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
+  
 }
 .economize {
   background-image: url(../../assets/FundoPorquinho.png);
@@ -148,26 +141,37 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center ;
+  
+}
+
+.botao_saibamais_1{
+  background-color: #F3FFFD;
+  color:  #500856;
+  border-color: #F3FFFD;
+  margin: 0;
+  width: 75%;
 }
 
 
 .porque_nos{
   background-image: url(../../assets/FundoInterroga.png);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   color: #F3FFFD;
   height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .botao_saibamais_2{
   background-color: #F3FFFD;
   color:  #41748D;
   border-color: #F3FFFD;
-  width: 50%;
+  margin: 0;
+  width: 75%;
 }
 
 
@@ -191,8 +195,8 @@
   background-color: #F3FFFD;
   color:  #FF9877;
   border-color: #F3FFFD;
-  
-  width: 50%;
+  margin: 0;
+  width: 75%;
 }
 
 
@@ -201,7 +205,7 @@
   color:  #F3FFFD ;
   border-color: #F3FFFD;
   
-  width: 50%;
+  
 }
 
 
@@ -210,7 +214,7 @@
   color: #F3FFFD ;
   border-color: #F3FFFD;
   
-  width: 50%;
+  
 }
 
 .botao_saibamais_3:hover{
@@ -218,7 +222,35 @@
   color:  #F3FFFD;
   border-color: #F3FFFD;
   
-  width: 50%;
+  
+}
+
+.texto_economize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  width: 100%;
+
+}
+
+
+.texto_porque_nos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  width: 100%;
+
+}
+
+.texto_estresse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  width: 100%;
+
 }
 
 
