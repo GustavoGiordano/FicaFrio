@@ -1,0 +1,86 @@
+/* styles.css */
+
+.fundo {
+    background: linear-gradient(180deg, #FF9C41 0%, #FFC658 100%);
+    height: 550px;
+    padding: 70px;
+}
+
+.text-center {
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    background-color: #FFEDAF;
+    border: 0px solid #fff;
+    border-radius: 22px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+.logo {
+    width: 80px;
+    height: 30px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.loginUsuario,
+.loginCadeado {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.senha {
+    text-align: left;
+    align-self: center;
+    padding-right: 20%;
+    color: #41748D;
+    background-color: #FFEDAF;
+    border: 1.5px solid #000;
+    font-size: large;
+}
+
+.esqueceuSenha {
+    background-color: #FFEDAF;
+    border: 1.5px solid #000;
+    font-size: small;
+    border-radius: 10px;
+    color: #000;
+}
+
+.continuar{
+    background-color: #FFC658;
+    border: 0px solid #000;
+    font-size: large;
+    border-radius: 10px;
+    color: #000;
+}
+
+Button {
+    align-self: center;
+    margin-left: 25px;
+}
+
+.naoPossuiConta {
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+/*Cadastro*/
+
+.textoFria {
+    font-size: medium;
+    width: 50%;
+}
+
+.fundoCadastro{
+    background: linear-gradient(180deg, #41748D 0%, #335D7B 100%);
+    height: 550px;
+    padding: 70px;
+}
